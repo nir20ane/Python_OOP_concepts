@@ -11,12 +11,12 @@ Python OOP Concepts
 
 
 # Encapsulation
-Encapsulation
-* Public attributes and methods
-  * Public atrribute and public method can de accessed and modified from outside the class
-  * By default, all attributes and methods in python are public
+* Encapsulation refers to restricting direct access to an object's attributes and methods.
+  # Public Attributes and Methods
+    * Can be freely accessed and modified from outside the class.
+    * By default, all attributes and methods in Python are public.
 
-* Protected attributes and methods
-  * protected attributes and methods are class members that should not be accessed directly from outside the class
-  * However, they can be accessed within the class and in child classes (see below for more on child classes
-  * Protected attributes are denoted by prefixing the attribute/method name with a single underscore
+  # Protected attributes and methods
+    * protected attributes and methods are class members that should not be accessed directly from outside the class
+    * However, they can be accessed within the class and in child classes (see below for more on child classes
+   * Protected attributes are denoted by prefixing the attribute/method name with a single underscore
