@@ -11,7 +11,7 @@ Classes
 
 # Encapsulation
 Encapsulation
-* Public attributes and Public methods
+* Public attributes and methods
   * Public atrribute and public method can de accessed and modified from outside the class
   * By default, all attributes and methods in python are public
 
