@@ -35,3 +35,24 @@ Python OOP Concepts
 * They are shared by all instances of the class
 * This also means that they do not have access to instance attributes, which is why we don't use self in class methods
 * Class methods can be defined with additional parameters, after the cls parameter
+
+# Statis Methods
+* There are also static methods which are similar to class methods but they don't have access to self or cls
+* They do not have access to instance attributes, but they can still access class attributes using the class name
+* They are just regular functions that live inside a class for organizational purposes
+
+# Inheritance Basics
+* Inheritance is a fundamental concept in object-oriented programming that allows you to create a new class based on an existing class
+* The new class, known as the child class or subclass
+
+# Method Overriding
+* Method overriding allows us to change the behavior of a method in a child class
+
+# Super() Function
+* super() is a built-in function in Python that allows you to call methods from a parent class
+
+# Multiple Inheritance
+* class can inherit attributes and methods from more than one parent class
+* Diamond Pattern: Python uses Method Resolution Order (MRO) to determine which method to call when dealing with multiple inheritance
+
+
