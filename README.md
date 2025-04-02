@@ -29,3 +29,9 @@ Python OOP Concepts
 * Class attributes must be declared outside the __init__ method and without the self keyword
 * Notice that we access class attributes using the class name, not the instance name
 * This is because class attributes are shared by all instances of the class. Class attributes can be updated outside the class as well
+
+# Class Methods
+* Methods that work with the entire class rather than individual instances
+* They are shared by all instances of the class
+* This also means that they do not have access to instance attributes, which is why we don't use self in class methods
+* Class methods can be defined with additional parameters, after the cls parameter
