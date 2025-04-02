@@ -6,7 +6,7 @@ Classes
 * A class is a blueprint for creating objects. 
 * Object is an instance of a class
 * Attributes are properties that define or belong to an object
-* * `self` is how python refers to a specific object
+* `self` is how python refers to a specific object
 * `__init__` is a special methid in python known as constructor
 
 # Encapsulation
