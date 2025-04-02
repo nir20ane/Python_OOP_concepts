@@ -1,13 +1,20 @@
-# Python_OOP_concepts
-Python_OOP_concepts
+Python OOP Concepts
 
-# Classes
 Classes
-* A class is a blueprint for creating objects. 
-* Object is an instance of a class
-* Attributes are properties that define or belong to an object
-* `self` is how python refers to a specific object
-* `__init__` is a special methid in python known as constructor
+
+A class in Python is a blueprint for creating objects.
+
+Object: An instance of a class.
+
+Attributes: Properties or variables belonging to an object that define its characteristics.
+
+Methods: Functions defined within a class that describe behaviors of an object.
+
+self: Refers to the specific instance of the class.
+
+__init__: A special method in Python known as the constructor, used to initialize attributes of an object when it's created.
+
+
 
 # Encapsulation
 Encapsulation
