@@ -36,8 +36,8 @@ Python OOP Concepts
 * This also means that they do not have access to instance attributes, which is why we don't use self in class methods
 * Class methods can be defined with additional parameters, after the cls parameter
 
-# Statis Methods
-* There are also static methods which are similar to class methods but they don't have access to self or cls
+# Static Methods
+* Similar to class methods but they don't have access to self or cls
 * They do not have access to instance attributes, but they can still access class attributes using the class name
 * They are just regular functions that live inside a class for organizational purposes
 
