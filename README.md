@@ -18,5 +18,6 @@ Python OOP Concepts
 
   # Protected attributes and methods
     * protected attributes and methods are class members that should not be accessed directly from outside the class
-    * However, they can be accessed within the class and in child classes (see below for more on child classes
-   * Protected attributes are denoted by prefixing the attribute/method name with a single underscore
+    * However, they can be accessed within the class and in child classes 
+    * Protected attributes are denoted by prefixing the attribute/method name with a _
+    * Note: Python does not enforce access control strictly. Protected attributes and methods are a convention to signal that external code should avoid accessing them directly.
