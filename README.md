@@ -1,18 +1,12 @@
 Python OOP Concepts
 
-Classes
-
-A class in Python is a blueprint for creating objects.
-
-Object: An instance of a class.
-
-Attributes: Properties or variables belonging to an object that define its characteristics.
-
-Methods: Functions defined within a class that describe behaviors of an object.
-
-self: Refers to the specific instance of the class.
-
-__init__: A special method in Python known as the constructor, used to initialize attributes of an object when it's created.
+# Classes
+* A class in Python is a blueprint for creating objects.
+* Object: An instance of a class.
+* Attributes: Properties or variables belonging to an object that define its characteristics.
+* Methods: Functions defined within a class that describe behaviors of an object.
+* self: Refers to the specific instance of the class.
+* __init__: A special method in Python known as the constructor, used to initialize attributes of an object when it's created.
 
 
 
