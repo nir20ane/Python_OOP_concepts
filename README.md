@@ -55,4 +55,26 @@ Python OOP Concepts
 * class can inherit attributes and methods from more than one parent class
 * Diamond Pattern: Python uses Method Resolution Order (MRO) to determine which method to call when dealing with multiple inheritance
 
+# Polymorphism with Inheritance
+* Runtime Polymorphism
+  * Decided during program execution
+  * Achieved through Method Overriding and Duck Typing
+* Compile-time Polymorphism
+  * Decided at compilation time (before the code starts running)
+  * Achieved through method overloading
+ 
+# Method overloading 
+* same method with multiple implementations
+* Achieved through default arguments (eg: x: int = 0) or variable-length arguments (*args)
+* Duck Typing is a polymorphism concept where the type of an object is determined by its behavior rather than its explicit declaration
+* In other words, if an object has the methods or attributes that are required by a function or method, it can be used in that context, regardless of its actual class or type
+
+# Abstraction
+* hiding complex implementation details
+* Data abstraction : private attributes
+* Behavioral abstraction: abstract method
+* Abstract class - contains one or more abstract methods
+* Abstract method - declared in a base class, but contains no implementation. The child class must implement the abstract method
+* from abc import ABC, abstractmethod
+* An interface in Python is just like an abstract class, but with one key difference: it contains only abstract methods - serves as pure contract
 
